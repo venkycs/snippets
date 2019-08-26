@@ -20,7 +20,7 @@ def request_login():
         'Content-Type': 'application/json',
         'Connection': 'close'
     }
-    data = '{"username":"admin","password":"admin@559"}'
+    data = '{"username":"admin","password":"****admin_password****"}'
     r = requests.post(url+'/session', headers=headers, data=data, verify=False)
     resp_json = json.loads(r.text)
     return resp_json['token']
