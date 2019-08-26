@@ -1,2 +1,2 @@
 # snippets
-few snippets that I made to make my life easy.
+few old snippets that I made to make my life easy.
